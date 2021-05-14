@@ -120,6 +120,7 @@ public:
   
   RETURN:	none
 */
+  void begin();
   void clear();
   void clear(uint8_t rowStart, uint8_t colStart = 0, uint8_t colCnt = 255);
   void home();
